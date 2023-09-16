@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap
+);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 580px;
+}
+
+.contenedor {
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-container {
+    background-color: #fff;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    
+}
+
+.imagen {
+    width: 300px;
+}
+
+.texto-container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 260px;
+}
+
+p {
+    text-align: left;
+    margin: 2;
+}
+.descuento{
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+}
+.precio{
+    font-size: 18px;
+    font-weight: bold;
+}
+.falabella{
+    font-size: 13px;
+}
+ul{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 30px;
+    list-style-type:none;
+}
+li:before{
+    content: "\2713\0020";
+}
+span{
+    font-size: 14px;
+    background-color: #e93f22;
+    border-radius: 30px;
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: lighter;
+}
+.carrito{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+.cuadro-verde {
+    background-color: #ADD500;
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
